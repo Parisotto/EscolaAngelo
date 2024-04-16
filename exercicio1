@@ -1,0 +1,27 @@
+primos = [2]
+numero = 3
+
+quantidade = 0
+while quantidade < 5 or quantidade > 20:
+    quantidade = int(input("Escolha quantos ímpares você quer (mínimo 5, máximo 20): "))
+    if quantidade < 5 or quantidade > 20:
+        print(f"Quantidade {quantidade} inválida!")
+    else:
+        break
+
+i = 1
+while i < quantidade:
+    divisor = 2
+    composto = False
+    while divisor < numero:
+        if numero % divisor == 0:
+            composto = True
+            break
+        else:
+            divisor += 1
+    if composto == False:
+        primos.append(numero)
+        i += 1
+    numero += 2
+
+print(f"Lista com os primeiros {len(primos)} números primos:\n{primos}")
