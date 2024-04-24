@@ -24,5 +24,5 @@ print(primeiroDicionario["tipo"])
 # lista[indice] = Valor 
 # dicionario[chave] = Valor 
 
-
+# Revisado
 
