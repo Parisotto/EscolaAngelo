@@ -25,4 +25,4 @@ print(primeiroDicionario["tipo"])
 # dicionario[chave] = Valor 
 
 # Revisado
-
+# 24/04/2024
