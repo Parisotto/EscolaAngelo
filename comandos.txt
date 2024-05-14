@@ -4,7 +4,9 @@
 3 Abra o Terminal e digite o comando: git clone <cole aqui o link compiado>
 4 Tecle ENTER
 5 No VS Code abra a pasta clonada
-6 No terminal digite: git config user.name <digite aqui seu nome de usuário no Github>
+6 No terminal digite: 
+git config --global user.name <digite aqui seu nome de usuário no Github>
 7 Tecle ENTER
-8 Ainda no terminal digite: git config user.email <digite aqui seu email no GitHub>
+8 Ainda no terminal digite: 
+git config --global user.email <digite aqui seu email no GitHub>
 9 Tecle ENTER
