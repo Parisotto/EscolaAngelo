@@ -10,3 +10,4 @@ git config --global user.name <digite aqui seu nome de usuário no Github>
 8 Ainda no terminal digite: 
 git config --global user.email <digite aqui seu email no GitHub>
 9 Tecle ENTER
+10 
