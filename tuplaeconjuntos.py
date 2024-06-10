@@ -1,4 +1,4 @@
-TUPLAS E SETs
+# TUPLAS E SETs
 
 lista = ["Escola", 9, True, 0.5]
 dicionario = {"texto":"Angelo", "numero":7, "situação":False, "decimal":1.4}
